@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/offersFragment"
+        android:icon="@drawable/ic_baseline_local_offer_24"
+        android:title="@string/offers" />
+
+    <item
+        android:id="@+id/earnMoreFragment"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="@string/earn_more" />
+
+    <item
+        android:id="@+id/cashFragment"
+        android:icon="@drawable/ic_baseline_money_24"
+        android:title="@string/cash" />
+
+    <item
+        android:id="@+id/friendsFragment"
+        android:icon="@drawable/ic_baseline_connect_without_contact_24"
+        android:title="@string/friends" />
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/coinsFragment"
+        android:title="@string/coins"/>
+
+    <item
+        android:id="@+id/cashFragment"
+        android:title="@string/cash" />
+
+    <item
+        android:id="@+id/offersFragment"
+        android:title="@string/offers" />
+
+    <item
+        android:id="@+id/stepHistoryFragment"
+        android:title="@string/step_history" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/reportIssueFragment"
+        android:title="@string/report_issue" />
+
+
+</menu>

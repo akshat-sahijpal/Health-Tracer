@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/create_acc_frag">
+    <fragment
+        android:id="@+id/phone_verif_otp"
+        android:name="com.example.footsetmove.ui.fragments.login.PhoneVerificationOtpFragment"
+        android:label="fragment_phone_verif_otp"
+        tools:layout="@layout/fragment_phone_verif_otp">
+        <action
+            android:id="@+id/action_phone_verif_otp_to_final_screen"
+            app:destination="@id/final_screen"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/sign_in_frag"
+        android:name="com.example.footsetmove.ui.fragments.login.SignInFragment"
+        android:label="fragment_sign_in_frag"
+        tools:layout="@layout/fragment_sign_in_frag">
+        <action
+            android:id="@+id/action_sign_in_frag_to_phone_verif_number"
+            app:destination="@id/phone_verif_number"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_final_screen"
+            app:destination="@id/final_screen"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_userFragment"
+            app:destination="@id/userFragment"
+            app:enterAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_forgotPassword"
+            app:destination="@id/forgotPassword"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_create_acc_frag"
+            app:destination="@id/create_acc_frag"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_signInWithPhone"
+            app:destination="@id/signInWithPhone" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_userFragment2"
+            app:destination="@id/userFragment"
+            app:enterAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_sign_in_frag_to_passwordForSignInGoogle"
+            app:destination="@id/passwordForSignInGoogle" />
+    </fragment>
+    <fragment
+        android:id="@+id/phone_verif_number"
+        android:name="com.example.footsetmove.ui.fragments.login.PhoneVerificationNumberFragment"
+        android:label="fragment_phone_verif_number"
+        tools:layout="@layout/fragment_phone_verif_number">
+
+        <action
+            android:id="@+id/action_phone_verif_number_to_sign_in_frag"
+            app:destination="@id/sign_in_frag"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_phone_verif_number_to_sign_in_frag2"
+            app:destination="@id/sign_in_frag"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_phone_verif_number_to_signInWithPhone"
+            app:destination="@id/signInWithPhone"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_phone_verif_number_to_phone_verif_otp"
+            app:destination="@id/phone_verif_otp" />
+    </fragment>
+    <fragment
+        android:id="@+id/create_acc_frag"
+        android:name="com.example.footsetmove.ui.fragments.login.CreateAccountFragment"
+        android:label="fragment_create_acc_frag"
+        tools:layout="@layout/fragment_create_acc_frag">
+        <action
+            android:id="@+id/action_create_acc_frag_to_phone_verif_number"
+            app:destination="@id/phone_verif_number"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_create_acc_frag_to_sign_in_frag"
+            app:destination="@id/sign_in_frag"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_create_acc_frag_to_final_screen"
+            app:destination="@id/final_screen"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_create_acc_frag_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_create_acc_frag_to_passwordForSignInGoogle"
+            app:destination="@id/passwordForSignInGoogle" />
+        <action
+            android:id="@+id/action_create_acc_frag_to_sign_in_frag2"
+            app:destination="@id/sign_in_frag" />
+        <action
+            android:id="@+id/action_create_acc_frag_to_forgotPassword"
+            app:destination="@id/forgotPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/final_screen"
+        android:name="com.example.footsetmove.ui.fragments.login.FinalScreenFragment"
+        android:label="fragment_final_screen"
+        tools:layout="@layout/fragment_final_screen">
+        <action
+            android:id="@+id/action_final_screen_to_create_acc_frag"
+            app:destination="@id/create_acc_frag"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_final_screen_to_userFragment"
+            app:destination="@id/userFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.footsetmove.ui.fragments.login.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user">
+        <action
+            android:id="@+id/action_userFragment_to_sign_in_frag"
+            app:destination="@id/sign_in_frag"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_userFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_userFragment_to_permissionFragment"
+            app:destination="@id/permissionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassword"
+        android:name="com.example.footsetmove.ui.fragments.login.ForgotPassword"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/signInWithPhone"
+        android:name="com.example.footsetmove.ui.fragments.login.SignInWithPhone"
+        android:label="fragment_sign_in_with_phone"
+        tools:layout="@layout/fragment_sign_in_with_phone">
+        <action
+            android:id="@+id/action_signInWithPhone_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_signInWithPhone_to_passwordForSignInPhone"
+            app:destination="@id/passwordForSignInPhone" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordForSignInPhone"
+        android:name="com.example.footsetmove.ui.fragments.login.PasswordForSignInPhone"
+        android:label="fragment_password_for_sign_in_phone"
+        tools:layout="@layout/fragment_password_for_sign_in_phone">
+        <action
+            android:id="@+id/action_passwordForSignInPhone_to_userFragment"
+            app:destination="@id/userFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordForSignInGoogle"
+        android:name="com.example.footsetmove.ui.fragments.login.PasswordForSignInGoogle"
+        android:label="fragment_password_for_sign_in_google"
+        tools:layout="@layout/fragment_password_for_sign_in_google">
+        <action
+            android:id="@+id/action_passwordForSignInGoogle_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.footsetmove.ui.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.footsetmove.ui.fragments.permissions.PermissionFragment"
+        android:label="fragment_permission"
+        tools:layout="@layout/fragment_permission" >
+        <action
+            android:id="@+id/action_permissionFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+</navigation>
