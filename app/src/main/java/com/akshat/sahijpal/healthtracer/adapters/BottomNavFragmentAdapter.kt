@@ -1,13 +1,13 @@
-package com.example.footsetmove.adapters
+package com.akshat.sahijpal.healthtracer.adapters
 
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.footsetmove.ui.fragments.cash.CashFragment
-import com.example.footsetmove.ui.fragments.earnmore.EarnMoreFragment
-import com.example.footsetmove.ui.fragments.friends.FriendsFragment
-import com.example.footsetmove.ui.fragments.home.HomeFragment
-import com.example.footsetmove.ui.fragments.offers.OffersFragment
+import com.akshat.sahijpal.healthtracer.ui.fragments.cash.CashFragment
+import com.akshat.sahijpal.healthtracer.ui.fragments.earnmore.EarnMoreFragment
+import com.akshat.sahijpal.healthtracer.ui.fragments.friends.FriendsFragment
+import com.akshat.sahijpal.healthtracer.ui.fragments.home.HomeFragment
+import com.akshat.sahijpal.healthtracer.ui.fragments.offers.OffersFragment
 
 class BottomNavFragmentAdapter(fgm: FragmentManager, lifecycle: Lifecycle) :
     FragmentStateAdapter(fgm, lifecycle) {

@@ -1,4 +1,4 @@
-package com.example.footsetmove.di
+package com.akshat.sahijpal.healthtracer.di
 
 import dagger.Module
 import dagger.Provides

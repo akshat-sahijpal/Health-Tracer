@@ -1,10 +1,10 @@
-package com.example.footsetmove.ui
+package com.akshat.sahijpal.healthtracer.ui
 
 import android.content.pm.ActivityInfo
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.example.footsetmove.R
+import com.akshat.sahijpal.healthtracer.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

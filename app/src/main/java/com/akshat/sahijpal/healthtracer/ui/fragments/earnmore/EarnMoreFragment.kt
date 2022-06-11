@@ -1,7 +1,7 @@
-package com.example.footsetmove.ui.fragments.earnmore
+package com.akshat.sahijpal.healthtracer.ui.fragments.earnmore
 
 import androidx.fragment.app.Fragment
-import com.example.footsetmove.R
+import com.akshat.sahijpal.healthtracer.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

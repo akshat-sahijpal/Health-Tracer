@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.home
+package com.akshat.sahijpal.healthtracer.ui.fragments.home
 
 import android.os.Build
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
-import com.example.footsetmove.R
-import com.example.footsetmove.adapters.BottomNavFragmentAdapter
+import com.akshat.sahijpal.healthtracer.R
+import com.akshat.sahijpal.healthtracer.adapters.BottomNavFragmentAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dagger.hilt.android.AndroidEntryPoint
 

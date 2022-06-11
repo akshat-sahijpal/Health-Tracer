@@ -1,10 +1,10 @@
-package com.example.footsetmove.ui.fragments.login.viewModels
+package com.akshat.sahijpal.healthtracer.ui.fragments.login.viewModels
 
 import android.app.Application
 import android.view.View
 import androidx.lifecycle.AndroidViewModel
-import com.example.footsetmove.db.schemas.AuthStatusCode
-import com.example.footsetmove.repositories.loginRepositories.FinalScreenRepository
+import com.akshat.sahijpal.healthtracer.db.schemas.AuthStatusCode
+import com.akshat.sahijpal.healthtracer.repositories.loginRepositories.FinalScreenRepository
 import com.google.firebase.auth.FirebaseAuth
 
 class FinalScreenViewModel(context: Application): AndroidViewModel(context){

@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.login
+package com.akshat.sahijpal.healthtracer.ui.fragments.login
 
 import android.os.Bundle
 import android.view.View
@@ -6,9 +6,9 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.footsetmove.R
-import com.example.footsetmove.db.schemas.userTableForPhone
-import com.example.footsetmove.ui.fragments.login.viewModels.AccWithPhoneViewModel
+import com.akshat.sahijpal.healthtracer.R
+import com.akshat.sahijpal.healthtracer.db.schemas.userTableForPhone
+import com.akshat.sahijpal.healthtracer.ui.fragments.login.viewModels.AccWithPhoneViewModel
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.firestore.FirebaseFirestore

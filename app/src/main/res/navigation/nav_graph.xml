@@ -6,7 +6,7 @@
     app:startDestination="@id/create_acc_frag">
     <fragment
         android:id="@+id/phone_verif_otp"
-        android:name="com.example.footsetmove.ui.fragments.login.PhoneVerificationOtpFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.PhoneVerificationOtpFragment"
         android:label="fragment_phone_verif_otp"
         tools:layout="@layout/fragment_phone_verif_otp">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/sign_in_frag"
-        android:name="com.example.footsetmove.ui.fragments.login.SignInFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.SignInFragment"
         android:label="fragment_sign_in_frag"
         tools:layout="@layout/fragment_sign_in_frag">
         <action
@@ -56,7 +56,7 @@
     </fragment>
     <fragment
         android:id="@+id/phone_verif_number"
-        android:name="com.example.footsetmove.ui.fragments.login.PhoneVerificationNumberFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.PhoneVerificationNumberFragment"
         android:label="fragment_phone_verif_number"
         tools:layout="@layout/fragment_phone_verif_number">
 
@@ -81,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/create_acc_frag"
-        android:name="com.example.footsetmove.ui.fragments.login.CreateAccountFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.CreateAccountFragment"
         android:label="fragment_create_acc_frag"
         tools:layout="@layout/fragment_create_acc_frag">
         <action
@@ -113,7 +113,7 @@
     </fragment>
     <fragment
         android:id="@+id/final_screen"
-        android:name="com.example.footsetmove.ui.fragments.login.FinalScreenFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.FinalScreenFragment"
         android:label="fragment_final_screen"
         tools:layout="@layout/fragment_final_screen">
         <action
@@ -129,7 +129,7 @@
     </fragment>
     <fragment
         android:id="@+id/userFragment"
-        android:name="com.example.footsetmove.ui.fragments.login.UserFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.UserFragment"
         android:label="fragment_user"
         tools:layout="@layout/fragment_user">
         <action
@@ -147,12 +147,12 @@
     </fragment>
     <fragment
         android:id="@+id/forgotPassword"
-        android:name="com.example.footsetmove.ui.fragments.login.ForgotPassword"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.ForgotPassword"
         android:label="fragment_forgot_password"
         tools:layout="@layout/fragment_forgot_password" />
     <fragment
         android:id="@+id/signInWithPhone"
-        android:name="com.example.footsetmove.ui.fragments.login.SignInWithPhone"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.SignInWithPhone"
         android:label="fragment_sign_in_with_phone"
         tools:layout="@layout/fragment_sign_in_with_phone">
         <action
@@ -164,7 +164,7 @@
     </fragment>
     <fragment
         android:id="@+id/passwordForSignInPhone"
-        android:name="com.example.footsetmove.ui.fragments.login.PasswordForSignInPhone"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.PasswordForSignInPhone"
         android:label="fragment_password_for_sign_in_phone"
         tools:layout="@layout/fragment_password_for_sign_in_phone">
         <action
@@ -175,7 +175,7 @@
     </fragment>
     <fragment
         android:id="@+id/passwordForSignInGoogle"
-        android:name="com.example.footsetmove.ui.fragments.login.PasswordForSignInGoogle"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.login.PasswordForSignInGoogle"
         android:label="fragment_password_for_sign_in_google"
         tools:layout="@layout/fragment_password_for_sign_in_google">
         <action
@@ -184,12 +184,12 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment2"
-        android:name="com.example.footsetmove.ui.fragments.home.HomeFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/permissionFragment"
-        android:name="com.example.footsetmove.ui.fragments.permissions.PermissionFragment"
+        android:name="com.akshat.sahijpal.healthtracer.ui.fragments.permissions.PermissionFragment"
         android:label="fragment_permission"
         tools:layout="@layout/fragment_permission" >
         <action

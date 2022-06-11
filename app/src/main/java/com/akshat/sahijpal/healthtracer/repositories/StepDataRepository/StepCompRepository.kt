@@ -1,4 +1,4 @@
-package com.example.footsetmove.repositories.StepDataRepository
+package com.akshat.sahijpal.healthtracer.repositories.StepDataRepository
 
 import dagger.hilt.android.AndroidEntryPoint
 

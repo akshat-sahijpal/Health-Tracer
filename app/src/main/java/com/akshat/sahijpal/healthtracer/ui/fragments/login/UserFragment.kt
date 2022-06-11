@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.login
+package com.akshat.sahijpal.healthtracer.ui.fragments.login
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
-import com.example.footsetmove.db.schemas.UserTable
+import com.akshat.sahijpal.healthtracer.R
+import com.akshat.sahijpal.healthtracer.db.schemas.UserTable
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

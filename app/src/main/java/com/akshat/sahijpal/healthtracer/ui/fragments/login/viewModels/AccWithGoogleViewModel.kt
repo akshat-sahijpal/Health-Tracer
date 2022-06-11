@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.login.viewModels
+package com.akshat.sahijpal.healthtracer.ui.fragments.login.viewModels
 
 import android.app.Application
 import android.content.Intent
@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.footsetmove.repositories.loginRepositories.CreateAccountGoogleRepository
+import com.akshat.sahijpal.healthtracer.repositories.loginRepositories.CreateAccountGoogleRepository
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.firebase.auth.FirebaseUser
 

@@ -1,4 +1,4 @@
-package com.example.footsetmove.repositories.loginRepositories
+package com.akshat.sahijpal.healthtracer.repositories.loginRepositories
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,7 +14,7 @@ import androidx.fragment.app.setFragmentResult
 import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
+import com.akshat.sahijpal.healthtracer.R
 import com.akshat.sahijpal.healthtracer.utils.Constants.SHARED_PREF_FOR_LOG
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseTooManyRequestsException

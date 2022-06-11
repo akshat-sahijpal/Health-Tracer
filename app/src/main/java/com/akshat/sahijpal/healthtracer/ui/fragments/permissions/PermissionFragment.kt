@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.permissions
+package com.akshat.sahijpal.healthtracer.ui.fragments.permissions
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -10,7 +10,7 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.example.footsetmove.R
+import com.akshat.sahijpal.healthtracer.R
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount

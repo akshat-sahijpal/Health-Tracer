@@ -1,11 +1,11 @@
-package com.example.footsetmove.repositories.loginRepositories
+package com.akshat.sahijpal.healthtracer.repositories.loginRepositories
 
 import android.content.ContentValues.TAG
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
-import com.example.footsetmove.db.schemas.UserTable
+import com.akshat.sahijpal.healthtracer.db.schemas.UserTable
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.google.firebase.firestore.FirebaseFirestore
 

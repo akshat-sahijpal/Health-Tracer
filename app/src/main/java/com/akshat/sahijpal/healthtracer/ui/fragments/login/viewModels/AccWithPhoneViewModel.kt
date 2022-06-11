@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.login.viewModels
+package com.akshat.sahijpal.healthtracer.ui.fragments.login.viewModels
 
 import android.app.Application
 import android.view.View
@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.footsetmove.repositories.loginRepositories.CreateAccountPhoneRepository
+import com.akshat.sahijpal.healthtracer.repositories.loginRepositories.CreateAccountPhoneRepository
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.PhoneAuthCredential
 

@@ -14,13 +14,13 @@ object Constants {
     const val Phone_exchange_bundle_key = "mainbranch256342"
     const val RC_SIGN_IN = 29292
     private const val dataUploaderPath = userInformation_c
-    const val EMAIL_REQUEST_KEY = "com.example.footsetmove.utils.EMAIL_REQUEST_KEY"
-    const val PASS_REQUEST_KEY = "com.example.footsetmove.utils.PASS_REQUEST_KEY"
+    const val EMAIL_REQUEST_KEY = "com.akshat.sahijpal.healthtracer.utils.EMAIL_REQUEST_KEY"
+    const val PASS_REQUEST_KEY = "com.akshat.sahijpal.healthtracer.utils.PASS_REQUEST_KEY"
     private var db = FirebaseFirestore.getInstance()
     var storeDataPath = db.collection(dataUploaderPath)
     const val PHONE_AUTH = 1
     const val GOOGLE_AUTH = 2
-    const val SHARED_PREF_FOR_LOG = "com.example.footsetmove.utils.SHARED_PREF_FOR_LOG"
+    const val SHARED_PREF_FOR_LOG = "com.akshat.sahijpal.healthtracer.utils.SHARED_PREF_FOR_LOG"
     const val GOOGLE_FIT_PERMISSIONS_REQUEST_CODE = 246328
-    const val SHARED_PREF_FOR_GOOGLE = "com.example.footsetmove.utils.SHARED_PREF_FOR_GOOGLE"
+    const val SHARED_PREF_FOR_GOOGLE = "com.akshat.sahijpal.healthtracer.utils.SHARED_PREF_FOR_GOOGLE"
 }

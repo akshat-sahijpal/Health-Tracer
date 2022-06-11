@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.login
+package com.akshat.sahijpal.healthtracer.ui.fragments.login
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -12,10 +12,10 @@ import androidx.fragment.app.setFragmentResultListener
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
-import com.example.footsetmove.db.schemas.AuthStatusCode
-import com.example.footsetmove.db.schemas.UserTable
-import com.example.footsetmove.ui.fragments.login.viewModels.FinalScreenViewModel
+import com.akshat.sahijpal.healthtracer.R
+import com.akshat.sahijpal.healthtracer.db.schemas.AuthStatusCode
+import com.akshat.sahijpal.healthtracer.db.schemas.UserTable
+import com.akshat.sahijpal.healthtracer.ui.fragments.login.viewModels.FinalScreenViewModel
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.akshat.sahijpal.healthtracer.utils.Constants.EMAIL_REQUEST_KEY
 import com.akshat.sahijpal.healthtracer.utils.Constants.PASS_REQUEST_KEY

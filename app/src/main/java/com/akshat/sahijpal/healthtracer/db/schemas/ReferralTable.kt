@@ -1,4 +1,4 @@
-package com.example.footsetmove.db.schemas
+package com.akshat.sahijpal.healthtracer.db.schemas
 
 import java.time.format.DateTimeFormatter
 import java.util.*

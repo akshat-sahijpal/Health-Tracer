@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.footsetmove.ui.fragments.login.PhoneVerificationNumberFragment"  >
+    tools:context="com.akshat.sahijpal.healthtracer.ui.fragments.login.PhoneVerificationNumberFragment"  >
     <View
         android:id="@+id/view32"
         android:layout_width="match_parent"

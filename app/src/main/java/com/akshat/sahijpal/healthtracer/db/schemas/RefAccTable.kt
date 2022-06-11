@@ -1,4 +1,4 @@
-package com.example.footsetmove.db.schemas
+package com.akshat.sahijpal.healthtracer.db.schemas
 
 data class RefAccTable(
     var user_name:String?,

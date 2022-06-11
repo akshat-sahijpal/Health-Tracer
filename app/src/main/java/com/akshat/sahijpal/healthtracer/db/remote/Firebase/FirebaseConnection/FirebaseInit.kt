@@ -1,6 +1,6 @@
-package com.example.footsetmove.db.remote.Firebase.FirebaseConnection
+package com.akshat.sahijpal.healthtracer.db.remote.Firebase.FirebaseConnection
 
-import com.example.footsetmove.db.schemas.*
+import com.akshat.sahijpal.healthtracer.db.schemas.*
 import com.google.firebase.firestore.FirebaseFirestore
 import java.util.*
 class FirebaseInit()  {

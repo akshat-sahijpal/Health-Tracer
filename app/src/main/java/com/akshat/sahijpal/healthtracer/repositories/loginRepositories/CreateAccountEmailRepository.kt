@@ -1,9 +1,9 @@
-package com.example.footsetmove.repositories.loginRepositories
+package com.akshat.sahijpal.healthtracer.repositories.loginRepositories
 
 import android.content.Context
 import android.view.View
 import androidx.lifecycle.MutableLiveData
-import com.example.footsetmove.db.remote.Firebase.FirebaseConnection.FirebaseEmailRConnection
+import com.akshat.sahijpal.healthtracer.db.remote.Firebase.FirebaseConnection.FirebaseEmailRConnection
 import com.google.firebase.auth.FirebaseUser
 
 class CreateAccountEmailRepository {

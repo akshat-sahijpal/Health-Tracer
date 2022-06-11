@@ -1,4 +1,4 @@
-package com.example.footsetmove.db.remote.Firebase.FirebaseConnection
+package com.akshat.sahijpal.healthtracer.db.remote.Firebase.FirebaseConnection
 
 import android.content.Context
 import android.content.Intent
@@ -11,7 +11,7 @@ import androidx.fragment.app.setFragmentResult
 import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
+import com.akshat.sahijpal.healthtracer.R
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.akshat.sahijpal.healthtracer.utils.Constants.SHARED_PREF_FOR_GOOGLE
 import com.google.android.gms.auth.api.signin.GoogleSignIn

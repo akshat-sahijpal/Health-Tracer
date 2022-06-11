@@ -1,11 +1,11 @@
-package com.example.footsetmove.repositories.loginRepositories
+package com.akshat.sahijpal.healthtracer.repositories.loginRepositories
 
 import android.content.Context
 import android.content.Intent
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
-import com.example.footsetmove.db.remote.Firebase.FirebaseConnection.FirebaseGoogleRConnection
+import com.akshat.sahijpal.healthtracer.db.remote.Firebase.FirebaseConnection.FirebaseGoogleRConnection
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.firebase.auth.FirebaseUser
 

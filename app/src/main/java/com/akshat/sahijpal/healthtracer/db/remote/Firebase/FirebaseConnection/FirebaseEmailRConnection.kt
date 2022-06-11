@@ -1,4 +1,4 @@
-package com.example.footsetmove.db.remote.Firebase.FirebaseConnection
+package com.akshat.sahijpal.healthtracer.db.remote.Firebase.FirebaseConnection
 
 import android.content.ContentValues.TAG
 import android.content.Context
@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
+import com.akshat.sahijpal.healthtracer.R
 import com.google.firebase.auth.*
 import java.security.MessageDigest
 

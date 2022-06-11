@@ -1,4 +1,4 @@
-package com.example.footsetmove.ui.fragments.login
+package com.akshat.sahijpal.healthtracer.ui.fragments.login
 
 import android.content.ContentValues
 import android.os.Bundle
@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
-import com.example.footsetmove.db.schemas.userTableForPhone
+import com.akshat.sahijpal.healthtracer.R
+import com.akshat.sahijpal.healthtracer.db.schemas.userTableForPhone
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.akshat.sahijpal.healthtracer.utils.Constants.Phone_exchange_bundle_key
 import com.akshat.sahijpal.healthtracer.utils.Constants.Phone_exchange_key

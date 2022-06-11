@@ -1,12 +1,12 @@
-package com.example.footsetmove.repositories.loginRepositories
+package com.akshat.sahijpal.healthtracer.repositories.loginRepositories
 import android.util.Log
 import android.view.View
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.footsetmove.R
-import com.example.footsetmove.db.schemas.AuthStatusCode
-import com.example.footsetmove.db.schemas.UserTable
-import com.example.footsetmove.db.schemas.userTableForPhone
+import com.akshat.sahijpal.healthtracer.R
+import com.akshat.sahijpal.healthtracer.db.schemas.AuthStatusCode
+import com.akshat.sahijpal.healthtracer.db.schemas.UserTable
+import com.akshat.sahijpal.healthtracer.db.schemas.userTableForPhone
 import com.akshat.sahijpal.healthtracer.utils.Constants
 import com.google.firebase.auth.FirebaseAuth
 import java.util.*
